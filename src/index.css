@@ -144,23 +144,45 @@ a {
 .chip {
   display: inline-flex;
   align-items: center;
-  gap: 9px;
-  padding: 7px 16px;
+  gap: 11px;
+  padding: 10px 22px;
   border-radius: 999px;
-  border: 1px solid var(--outline);
-  background: var(--surface);
-  color: var(--text-2);
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.18em;
+  border: 1px solid rgba(205, 255, 58, 0.28);
+  background: linear-gradient(
+    120deg,
+    rgba(205, 255, 58, 0.12),
+    rgba(205, 255, 58, 0.04) 45%,
+    rgba(27, 30, 20, 0.7)
+  );
+  color: var(--lime);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  box-shadow:
+    0 0 24px rgba(205, 255, 58, 0.1),
+    inset 0 1px 0 rgba(244, 246, 238, 0.08);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 
 .chip__dot {
-  width: 7px;
-  height: 7px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   background: var(--lime);
-  box-shadow: 0 0 10px var(--lime);
+  box-shadow: 0 0 12px var(--lime);
+  animation: chip-pulse 2.2s ease-in-out infinite;
+}
+
+@keyframes chip-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(205, 255, 58, 0.55), 0 0 12px var(--lime);
+  }
+  50% {
+    box-shadow: 0 0 0 7px rgba(205, 255, 58, 0), 0 0 12px var(--lime);
+  }
 }
 
 /* ── Navbar — floating pill ───────────────────────────────────────── */
@@ -197,15 +219,16 @@ a {
 .navbar__brand {
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-size: 1.2rem;
+  gap: 12px;
+  font-size: 1.5rem;
   font-weight: 800;
+  letter-spacing: -0.02em;
 }
 
 .navbar__brand img {
-  width: 32px;
-  height: 32px;
-  border-radius: 9px;
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
   object-fit: cover;
 }
 
@@ -1568,12 +1591,12 @@ a {
   }
 
   .navbar__brand {
-    font-size: 1.05rem;
+    font-size: 1.25rem;
   }
 
   .navbar__brand img {
-    width: 28px;
-    height: 28px;
+    width: 34px;
+    height: 34px;
   }
 
   .navbar__links {
@@ -1581,9 +1604,9 @@ a {
   }
 
   .chip {
-    font-size: 0.62rem;
-    padding: 6px 12px;
-    letter-spacing: 0.12em;
+    font-size: 0.7rem;
+    padding: 8px 16px;
+    letter-spacing: 0.14em;
   }
 
   .hero__copy h1 {
