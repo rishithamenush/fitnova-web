@@ -63,7 +63,7 @@ export default function Features() {
           >
             <img
               className="bento-card__figure"
-              src="/images/muscle-fullbody.png"
+              src="/images/svg.png"
               alt="Full body muscle guide"
               loading="lazy"
             />
