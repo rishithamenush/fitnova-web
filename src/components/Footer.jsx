@@ -55,7 +55,7 @@ export default function Footer() {
             </a>
             <p className="footer__tagline">
               Your smart gym companion. Rolling workout cycles, target-muscle
-              guidance and effortless progress tracking — built for men and
+              guidance and effortless progress tracking - built for men and
               women.
             </p>
             <div className="footer__socials">
@@ -82,7 +82,7 @@ export default function Footer() {
 
           <div className="footer__col footer__app-col">
             <h4>Get the app</h4>
-            <p>Free to download. No subscription, no ads — just training.</p>
+            <p>Free to download. No subscription, no ads - just training.</p>
             <div className="footer__stores">
               <a href="#" className="store-btn" aria-label="Download on the App Store">
                 <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">

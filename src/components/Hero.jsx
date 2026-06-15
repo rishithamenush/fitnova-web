@@ -17,8 +17,8 @@ export default function Hero() {
             Look <span className="text-stroke">stronger.</span>
           </h1>
           <p className="reveal">
-            Rolling workout cycles, target-muscle guidance and effortless
-            progress tracking — one focused app, built for men and women.
+            Rolling workout cycles, target muscle guidance and effortless
+            progress tracking one focused app, built for men and women.
           </p>
           <div className="hero__actions reveal">
             <a href="#download" className="btn btn--lime btn--lg">

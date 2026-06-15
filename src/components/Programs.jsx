@@ -35,12 +35,12 @@ export default function Programs() {
             <span className="chip__dot" /> Training programs
           </span>
           <h2>
-            A proven 3-day split,
+            A proven 3 day split,
             <br />
             <span className="text-lime">tailored to you.</span>
           </h2>
           <p>
-            The same plan adapts to your profile — switch below to see how
+            The same plan adapts to your profile - switch below to see how
             FitNova personalizes every workout.
           </p>
 

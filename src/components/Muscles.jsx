@@ -20,7 +20,7 @@ export default function Muscles() {
             Know exactly <span className="text-lime">what you hit.</span>
           </h2>
           <p>
-            Every session highlights the muscles it trains — so every rep has
+            Every session highlights the muscles it trains - so every rep has
             a purpose.
           </p>
         </div>

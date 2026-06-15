@@ -41,7 +41,7 @@ export default function Features() {
           <Card
             area="a"
             title="Rolling workout cycles"
-            text="Build your own split — Day 1, Day 2, Day 3, Rest — and FitNova rolls it forward forever. No weekday lock-in, no missed plans."
+            text="Build your own split - Day 1, Day 2, Day 3, Rest - and FitNova rolls it forward forever. No weekday lock-in, no missed plans."
           >
             <div className="cycle-pills">
               <span className="is-on">Day 1</span>
@@ -72,7 +72,7 @@ export default function Features() {
           <Card
             area="c"
             title="Today-only focus"
-            text="Only today's scheduled workout can start. Stay on plan — no skipping ahead."
+            text="Only today's scheduled workout can start. Stay on plan - no skipping ahead."
             delay={120}
           >
             <div className="mini-lock">
@@ -101,7 +101,7 @@ export default function Features() {
           <Card
             area="e"
             title="Set-by-set tracking"
-            text="Run sessions set by set with rest timers and instructions — pause anytime and resume right where you left off."
+            text="Run sessions set by set with rest timers and instructions - pause anytime and resume right where you left off."
             delay={240}
           >
             <div className="mini-sets">
@@ -115,7 +115,7 @@ export default function Features() {
           <Card
             area="f"
             title="Made for you"
-            text="Pick your profile and the whole app adapts — artwork, muscle guides and plans."
+            text="Pick your profile and the whole app adapts - artwork, muscle guides and plans."
             delay={300}
           >
             <div className="mini-toggle">

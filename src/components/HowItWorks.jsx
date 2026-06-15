@@ -7,7 +7,7 @@ const steps = [
   {
     n: '02',
     title: "Open today's workout",
-    text: 'The app surfaces exactly what is scheduled today — warm-up, exercises, sets and reps, with full instructions.',
+    text: 'The app surfaces exactly what is scheduled today - warm-up, exercises, sets and reps, with full instructions.',
   },
   {
     n: '03',
